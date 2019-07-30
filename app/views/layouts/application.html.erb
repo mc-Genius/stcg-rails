@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>STCGReplace</title>
+    <title><%= content_for?(:title)? yield(:title): 'Business_Card_Print' %></title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
